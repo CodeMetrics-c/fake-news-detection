@@ -38,6 +38,6 @@ For example, to run logistic regression, give the following command if you want 
 2. TF-IDF: 'python3 logreg.py tfidf <flag> '
 3. Word2Vec: 'python3 logreg.py word2vec <flag>'
 
-Again, '<flag>' needs to be replaced by numbers. 0 always means an actual run.
+Again, < flag > needs to be replaced by numbers. 0 always means an actual run.
 
 For LSTMs and ANNs, grid search is done sequentially rather than all at once because of the limitation of computing resource. Thus, the flag for grid search not only includes 1, but also 2, 3, and 4. Take a closer look at the comments in those two files and you will understand how to perform the grid search.
