@@ -5,30 +5,30 @@ Languages: python3
 
 Libraries: tensorflow, keras, sklearn, numpy, pandas, matplotlib, spacy, textblob, gensim, re, langid,collections, plotly
 
-# Usage
-## Directories
+## Usage
+### Directories
 * fake-news: contains our dataset
 
 * preprocessing: contains scripts that we use to preprocess our data (stop word removal, punctuation removal, etc.) and to plot the graphs that will be useful for our analysis (sentiment analysis, Pos Tags Distribution, Unigrams and Bigrams) at the preprocessing stage.
 
 * train: all the pre-training and fine-tuning models are here.
 
-## Model architecture
+### Model architecture
 Our model consists of two stages. In the first stages, three pre-training algorithms are applied to the cleaned text to convert them into numerical representations. And at the second stage, the numerical representations of text are fed into five fine-tuning algorithms.
 
-## Pre-training algorithms
+### Pre-training algorithms
 * CountVectorizer
 * TF-IDF
 * Word2Vec
 
-## Fine-tuning algorithms
+### Fine-tuning algorithms
 * ANNs
 * LSTMs
 * Logistic Regression
 * Support Vector Machine
 *Random Forest Classifier
 
-## How to run our model
+### How to run our model
 Models will be run inside the 'train/' folder. A general command will be: 'python3 <fine-tuning algo> <pre-training> <flag>'
 
 < flag >: can be 0 or other numbers. Other numbers mean performing the grid search. 0 means doing an actual run to get the testing accuracy with a k-fold of 3 and with all the best hyperparameters set manually. The best hyperparameters are obtained from grid search. The grid search results for each combination of models are available in the directory train/model_results.
