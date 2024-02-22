@@ -29,7 +29,7 @@ Our model consists of two stages. In the first stages, three pre-training algori
 *Random Forest Classifier
 
 ## How to run our model
-Models will be run inside the '#ffffff train/ folder'. A general command will be: #python3 <fine-tuning algo > < pre-training > < flag >
+Models will be run inside the train/ folder. A general command will be: #python3 <fine-tuning algo > < pre-training > < flag >
 
 < flag >: can be 0 or other numbers. Other numbers mean performing the grid search. 0 means doing an actual run to get the testing accuracy with a k-fold of 3 and with all the best hyperparameters set manually. The best hyperparameters are obtained from grid search. The grid search results for each combination of models are available in the directory train/model_results.
 
