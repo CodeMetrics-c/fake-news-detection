@@ -34,9 +34,9 @@ Models will be run inside the train/ folder. A general command will be: python3 
 <flag>: can be 0 or other numbers. Other numbers mean performing the grid search. 0 means doing an actual run to get the testing accuracy with a k-fold of 3 and with all the best hyperparameters set manually. The best hyperparameters are obtained from grid search. The grid search results for each combination of models are available in the directory train/model_results.
 
 For example, to run logistic regression, give the following command if you want to run it with:
-1.CountVectorizer: python3 logreg.py cv <flag>
-2.TF-IDF: python3 logreg.py tfidf <flag>
-3.Word2Vec: python3 logreg.py word2vec <flag>
+1. CountVectorizer: python3 logreg.py cv <flag>
+2. TF-IDF: python3 logreg.py tfidf <flag>
+3. Word2Vec: python3 logreg.py word2vec <flag>
 
 Again, needs to be replaced by numbers. 0 always means an actual run.
 
