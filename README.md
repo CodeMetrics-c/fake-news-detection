@@ -9,6 +9,6 @@ Libraries: tensorflow, keras, sklearn, numpy, pandas, matplotlib, spacy, textblo
 # Directories
 * fake-news: contains our dataset
 
-'*' preprocessing: contains scripts that we use to preprocess our data (stop word removal, punctuation removal, etc.) and to plot the graphs that will be useful for our analysis (sentiment analysis, Pos Tags Distribution, Unigrams and Bigrams) at the preprocessing stage.
+* preprocessing: contains scripts that we use to preprocess our data (stop word removal, punctuation removal, etc.) and to plot the graphs that will be useful for our analysis (sentiment analysis, Pos Tags Distribution, Unigrams and Bigrams) at the preprocessing stage.
 
-'*' train: all the pre-training and fine-tuning models are here.
+* train: all the pre-training and fine-tuning models are here.
