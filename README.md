@@ -26,7 +26,7 @@ Our model consists of two stages. In the first stages, three pre-training algori
 * LSTMs
 * Logistic Regression
 * Support Vector Machine
-*Random Forest Classifier
+* Random Forest Classifier
 
 ### How to run our model
 Models will be run inside the 'train/' folder. A general command will be: 'python3 <fine-tuning algo> <pre-training> <flag>'
