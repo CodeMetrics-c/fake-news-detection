@@ -24,10 +24,8 @@ Our model consists of two stages. In the first stages, three pre-training algori
 * Word2Vec
 
 ### Fine-tuning algorithms
-* ANNs
-* LSTMs
 * Logistic Regression
-* Support Vector Machine
+* Decision Tree Classifier
 * Random Forest Classifier
 
 ### How to run our model
