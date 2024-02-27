@@ -28,16 +28,31 @@ Our model consists of two stages. In the first stages, three pre-training algori
 * Decision Tree Classifier
 * Random Forest Classifier
 
-### How to run our model
-Models will be run inside the 'train/' folder. A general command will be: 'python3 <fine-tuning algo> <pre-training> <flag>'
+You can install these dependencies using pip:
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install sklearn
+pip install seaborn 
+pip install re 
 
-< flag >: can be 0 or other numbers. Other numbers mean performing the grid search. 0 means doing an actual run to get the testing accuracy with a k-fold of 3 and with all the best hyperparameters set manually. The best hyperparameters are obtained from grid search. The grid search results for each combination of models are available in the directory train/model_results.
+# Usage
+1. Clone this repository to your local machine:
 
-For example, to run logistic regression, give the following command if you want to run it with:
-1. CountVectorizer: 'python3 logreg.py cv <flag>'
-2. TF-IDF: 'python3 logreg.py tfidf <flag> '
-3. Word2Vec: 'python3 logreg.py word2vec <flag>'
+git clone https://github.com/kapilsinghnegi/Fake-News-Detection.git
 
-Again, < flag > needs to be replaced by numbers. 0 always means an actual run.
+2. Navigate to the project directory:
 
-For LSTMs and ANNs, grid search is done sequentially rather than all at once because of the limitation of computing resource. Thus, the flag for grid search not only includes 1, but also 2, 3, and 4. Take a closer look at the comments in those two files and you will understand how to perform the grid search.
+cd fake-news-detection
+
+3. Execute the Jupyter Notebook or Python scripts associated with each classifier to train and test the models. For example:
+
+python random_forest_classifier.py
+
+The code will produce evaluation metrics and provide a prediction for whether the given news is true or false based on the trained model.
+
+# Results
+We evaluated each classifier's performance using metrics such as accuracy, precision, recall, and F1 score. The results are documented in the project files.
+
+# Model Deployment
+# Once you are satisfied with the performance of a particular classifier, you can deploy it in a real-world application or integrate it into a larger system for automatic fake news detection.
