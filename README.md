@@ -39,7 +39,7 @@ pip install re
 # Usage
 1. Clone this repository to your local machine:
 
-   git clone https://github.com/kapilsinghnegi/Fake-News-Detection.git
+   git clone https://github.com/CodeMetrics-c/fake-news-detection.git
 
 2. Navigate to the project directory:
 
