@@ -29,6 +29,7 @@ Our model consists of two stages. In the first stages, three pre-training algori
 * Random Forest Classifier
 
 You can install these dependencies using pip:
+
 pip install pandas
 pip install numpy
 pip install matplotlib
